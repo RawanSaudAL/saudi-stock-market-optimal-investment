@@ -7,7 +7,7 @@ This project was developed to answer a practical and widely relevant question wi
 
 Which sector represents the strongest and most strategically efficient opportunity for capital allocation when balancing growth, risk, and liquidity?
 
-The dashboard is designed not only as an analytical exercise, but as a structured decision-support tool. Its purpose is to translate complex market behavior into clear, measurable indicators that help investors — including those without deep financial expertise — understand where strength is concentrated within the Saudi market and how different sectors compare in terms of performance quality.
+The dashboard is designed not only as an analytical exercise, but as a structured decision-support tool. Its purpose is to translate complex market behavior into clear, measurable indicators that help investors including those without deep financial expertise understand where strength is concentrated within the Saudi market and how different sectors compare in terms of performance quality.
 
 Rather than focusing on speculation or short-term price movements, the framework evaluates sectors through disciplined quantitative metrics that reflect performance sustainability, risk exposure, and execution feasibility. The objective is to provide a rational foundation for investment direction within the Saudi equity market.
 
@@ -30,8 +30,7 @@ The project followed a structured analytical workflow beginning with data prepar
 Data preprocessing was conducted using pandas and numpy to ensure reliability and computational accuracy. Missing values were inspected and handled appropriately, duplicate records were removed based on Date and Ticker combinations, datetime formatting was standardized, and numeric columns such as Close price and Volume were validated.
 
 Daily returns were engineered using the standard financial formula:
-
-(Close_t − Close_{t−1}) / Close_{t−1}
+<img width="700" height="168" alt="image" src="https://github.com/user-attachments/assets/7e338fca-71fc-45ce-8bc5-b418b8e0161b" />
 
 Exploratory Data Analysis was conducted before KPI construction to validate statistical assumptions and understand the behavior of returns across sectors. This included inspection of return distributions, volatility dispersion, and descriptive statistics such as mean return, standard deviation, minimum, and maximum values. This ensured that risk-adjusted calculations were built on empirically observed patterns.
 
@@ -47,7 +46,9 @@ Growth was measured using cumulative aggregation of daily returns for comparativ
 
 To synthesize these components into a single decision metric, a composite score was constructed using:
 
-(Return / Volatility) × log(Total Volume)
+<img width="1274" height="158" alt="image" src="https://github.com/user-attachments/assets/4390d1f4-652d-4527-8211-325741a0bd36" />
+
+
 
 Logarithmic scaling was applied to normalize skewed liquidity distributions while preserving meaningful differences in trading depth. This composite score enables dynamic sector ranking based on balanced efficiency rather than isolated performance extremes.
 
@@ -74,7 +75,7 @@ These components collectively provide a structured view of sector strength withi
 The design prototype developed in Figma ensured that information hierarchy and KPI visibility support intuitive interpretation.
 
 <img width="1568" height="936" alt="image" src="https://github.com/user-attachments/assets/17c1554d-abfe-4e74-a547-629308fe1d42" />
-<img width="682" height="408" alt="image" src="https://github.com/user-attachments/assets/acb02b20-f192-47ae-b320-8f83a7d5a7ed" />
+
 
 
 
@@ -96,10 +97,11 @@ Interactive Tableau Dashboard:
 [Insert Tableau Public Link Here]
 
 Original Dataset Source:  
-[Insert Kaggle Link Here]
+https://www.kaggle.com/datasets/abdulmalekx/saudi-stocks-prediction-data-tadawul-2020-2026
 
 Figma Design Prototype:  
-[[Insert Figma Link Here]](https://www.figma.com/design/H5bkUK2twcapapJAqe0FtP/Untitled?node-id=22-3&t=hl32pgvtof4JjhIB-1)
+
+https://www.figma.com/design/H5bkUK2twcapapJAqe0FtP/Untitled?node-id=0-1&t=hl32pgvtof4JjhIB-1
 
 ---
 
@@ -111,7 +113,7 @@ This analysis is based on historical market data and focuses on relative sector 
 
 The dataset includes 16 major Saudi-listed companies. In certain sectors, representation was limited to a single company, meaning sector performance reflects the behavior of that representative firm rather than the full breadth of the industry. Expanding coverage across additional companies per sector would improve robustness and reduce representation bias.
 
-The framework intentionally concentrates on observable market behavior — price-based returns, statistical volatility, and liquidity depth — and does not incorporate financial statement fundamentals such as earnings growth, leverage ratios, or valuation multiples. The scope was defined to evaluate market-driven performance efficiency.
+The framework intentionally concentrates on observable market behavior  price-based returns, statistical volatility, and liquidity depth — and does not incorporate financial statement fundamentals such as earnings growth, leverage ratios, or valuation multiples. The scope was defined to evaluate market-driven performance efficiency.
 
 From a design perspective, advanced visual treatments prototyped in Figma, such as detailed gradients and custom shapes, could not be fully replicated in Tableau due to platform constraints. Analytical clarity and interpretability were prioritized over aesthetic complexity to maintain usability.
 
