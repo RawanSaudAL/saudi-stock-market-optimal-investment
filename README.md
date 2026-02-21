@@ -73,6 +73,9 @@ These components collectively provide a structured view of sector strength withi
 
 
 The design prototype developed in Figma ensured that information hierarchy and KPI visibility support intuitive interpretation.
+<img width="1422" height="870" alt="image" src="https://github.com/user-attachments/assets/8ec5d211-880f-4ba3-a820-b01fed3ea670" />
+
+
 
 <img width="1568" height="936" alt="image" src="https://github.com/user-attachments/assets/17c1554d-abfe-4e74-a547-629308fe1d42" />
 
@@ -107,7 +110,6 @@ https://www.figma.com/design/H5bkUK2twcapapJAqe0FtP/Untitled?node-id=0-1&t=hl32p
 
 ## Assumptions and Limitations
 
-## Assumptions & Limitations
 
 This analysis is based on historical market data and focuses on relative sector comparison rather than forward-looking prediction. Cumulative daily returns were used for comparative evaluation, and the risk-adjusted metric does not incorporate a risk-free rate, as the objective was internal efficiency assessment within the same market context.
 
