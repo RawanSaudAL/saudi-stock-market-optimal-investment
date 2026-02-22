@@ -46,7 +46,7 @@ Growth was measured using cumulative aggregation of daily returns for comparativ
 
 To synthesize these components into a single decision metric, a composite score was constructed using:
 
-<img width="1274" height="158" alt="image" src="https://github.com/user-attachments/assets/4390d1f4-652d-4527-8211-325741a0bd36" />
+<img width="1204" height="144" alt="image" src="https://github.com/user-attachments/assets/47f699f1-e31e-4a1f-b4a0-e08cfabe026c" />
 
 
 
@@ -69,17 +69,13 @@ The interactive dashboard presents:
 
 These components collectively provide a structured view of sector strength within the Saudi market.
 
-<img width="1264" height="982" alt="image" src="https://github.com/user-attachments/assets/f748ffb1-0279-4aa2-9626-15b4a9550736" />
+<img width="1980" height="1402" alt="image" src="https://github.com/user-attachments/assets/646acbc3-3a29-4acc-acdd-58955d6c520c" />
+<img width="1998" height="1406" alt="image" src="https://github.com/user-attachments/assets/0c29f07f-53b4-40a4-a38a-7e15afed65b0" />
 
 
 The design prototype developed in Figma ensured that information hierarchy and KPI visibility support intuitive interpretation.
-<img width="1422" height="870" alt="image" src="https://github.com/user-attachments/assets/8ec5d211-880f-4ba3-a820-b01fed3ea670" />
-
-
-
-<img width="1568" height="936" alt="image" src="https://github.com/user-attachments/assets/17c1554d-abfe-4e74-a547-629308fe1d42" />
-
-
+<img width="1394" height="834" alt="image" src="https://github.com/user-attachments/assets/71185c65-8877-4498-8f4e-b23efc39acd6" />
+<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/d49a590c-3ffe-431d-8b41-6b6b0bf1e0e2" />
 
 
 ---
@@ -97,13 +93,12 @@ The broader insight is that identifying the strongest sector requires evaluating
 ## Live Access
 
 Interactive Tableau Dashboard:  
-[Insert Tableau Public Link Here]
+https://public.tableau.com/shared/X2927YH3Y?:display_count=n&:origin=viz_share_link
 
 Original Dataset Source:  
 https://www.kaggle.com/datasets/abdulmalekx/saudi-stocks-prediction-data-tadawul-2020-2026
 
 Figma Design Prototype:  
-
 https://www.figma.com/design/H5bkUK2twcapapJAqe0FtP/Untitled?node-id=0-1&t=hl32pgvtof4JjhIB-1
 
 ---
@@ -115,7 +110,7 @@ This analysis is based on historical market data and focuses on relative sector 
 
 The dataset includes 16 major Saudi-listed companies. In certain sectors, representation was limited to a single company, meaning sector performance reflects the behavior of that representative firm rather than the full breadth of the industry. Expanding coverage across additional companies per sector would improve robustness and reduce representation bias.
 
-The framework intentionally concentrates on observable market behavior  price-based returns, statistical volatility, and liquidity depth — and does not incorporate financial statement fundamentals such as earnings growth, leverage ratios, or valuation multiples. The scope was defined to evaluate market-driven performance efficiency.
+The framework intentionally concentrates on observable market behavior  price-based returns, statistical volatility, and liquidity depth  and does not incorporate financial statement fundamentals such as earnings growth, leverage ratios, or valuation multiples. The scope was defined to evaluate market-driven performance efficiency.
 
 From a design perspective, advanced visual treatments prototyped in Figma, such as detailed gradients and custom shapes, could not be fully replicated in Tableau due to platform constraints. Analytical clarity and interpretability were prioritized over aesthetic complexity to maintain usability.
 
