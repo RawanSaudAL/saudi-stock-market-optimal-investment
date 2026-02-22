@@ -123,4 +123,4 @@ This project demonstrates a structured approach to transforming raw market data 
 
 Beyond visualization, the core value of this work lies in disciplined KPI engineering, data validation, and the translation of quantitative analysis into interpretable insights. The framework prioritizes clarity without compromising analytical depth, making it accessible to both technical and non-technical stakeholders.
 
-Ultimately, this analysis reflects a data-driven methodology aligned with real-world capital allocation thinking — where investment decisions are guided by measurable efficiency rather than isolated performance metrics.
+Ultimately, this analysis reflects a data-driven methodology aligned with real-world capital allocation thinking  where investment decisions are guided by measurable efficiency rather than isolated performance metrics.
